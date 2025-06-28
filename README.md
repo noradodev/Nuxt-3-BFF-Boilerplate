@@ -1,75 +1,34 @@
-# Nuxt Minimal Starter
+# Nuxt 3 BFF Boilerplate
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A minimal and production-ready Nuxt 3 boilerplate implementing the Backend-for-Frontend (BFF) architecture. Designed for scalable SaaS applications, it includes a modern UI stack, schema-safe validation, state management, and a complete testing environment.
 
-## Setup
+## Features
 
-Make sure to install dependencies:
+- Nuxt 3 with server API (BFF architecture)
+- Tailwind CSS for utility-first styling
+- Headless UI for accessible UI components
+- Pinia for state management
+- Zod and Vee-Validate for schema-based form validation
+- VueUse composables
+- Vue Sonner for toast notifications
+- Prettier and ESLint for code quality
+- Vitest and Nuxt Test Utils for unit and component testing
+
+## Stack Overview
+
+| Category        | Package                            |
+|----------------|-------------------------------------|
+| Framework       | Nuxt 3                              |
+| Styling         | Tailwind CSS, Headless UI           |
+| State           | Pinia                               |
+| Validation      | Zod, Vee-Validate                   |
+| Utilities       | VueUse                              |
+| Notifications   | Vue Sonner                          |
+| Testing         | Vitest, @vue/test-utils, happy-dom  |
+| Formatting      | Prettier, ESLint                    |
+
+## Getting Started
 
 ```bash
-# npm
 npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
