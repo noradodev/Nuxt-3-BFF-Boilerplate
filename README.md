@@ -54,9 +54,8 @@ components/
 
 3. `server/utils/`: This directory is for server-only helper functions. It is the perfect place to house the client/SDK for your external REST API, complex data transformation logic that shouldn't live in an API handler, or any other utility that is specific to the backend environment.  
 
-4. `server/api/*`: This folder will hold all your BFF to request from backend API securely.
-5. 
-4. `server/services/*`: Handling the request originaly from route of your api, each service may handling mulitple route (eg, Login, Logout, Register...)
+4. `server/api/*`: This folder will hold all your BFF to request from backend API securely that calling from services function.
+4. `server/services/*`: Handling the request originally from route of your api, each service may handling mulitple route (eg, auth/login, auth/logout, auth/register...)
 
 
 ### Shared
