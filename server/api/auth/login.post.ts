@@ -1,6 +1,6 @@
-import { authService } from '~/server/services/auth.services';
+import { authService } from '~/server/services/auth.service';
 import { sendSuccess, sendErrorResponse } from '~/server/utils/response';
-import { loginSchema } from '~/zod/auth.schema'; 
+import { loginSchema } from '~/shared/schemas/auth.schema'; 
 
 export default defineEventHandler(async (event) => {
   try {

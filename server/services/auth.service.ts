@@ -2,7 +2,7 @@
 import type { H3Event } from 'h3'
 import { api } from '~/server/lib/api'
 import { extractToken } from '../utils/token'
-import { LoginCredentials } from '~/zod/auth.schema'
+import { LoginCredentials } from '~/shared/schemas/auth.schema'
 
 export const authService = {
   /**
