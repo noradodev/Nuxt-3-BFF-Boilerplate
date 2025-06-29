@@ -1,5 +1,29 @@
 # Nuxt 3 BFF Boilerplate
 
+<p align="center">
+  <a href="https://nuxt.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white" alt="Nuxt.js">
+  </a>
+  <a href="https://zod.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Zod-3E6F9E?style=for-the-badge&logo=zod&logoColor=white" alt="Zod">
+  </a>
+  <a href="https://tailwindcss.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  </a>
+  <a href="https://pinia.vuejs.org/" target="_blank">
+    <img src="https://img.shields.io/badge/Pinia-FFD859?style=for-the-badge&logo=vue.js&logoColor=black" alt="Pinia">
+  </a>
+  <a href="https://vueuse.org/" target="_blank">
+    <img src="https://img.shields.io/badge/VueUse-4FC08D?style=for-the-badge&logo=VueUse&logoColor=white" alt="VueUse">
+  </a>
+  <a href="https://vue-sonner.vercel.app/" target="_blank">
+    <img src="https://img.shields.io/badge/Vue_Sonner-000000?style=for-the-badge" alt="Vue Sonner">
+  </a>
+  <a href="https://vitejs.dev/" target="_blank">
+    <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  </a>
+</p>
+
 A minimal and production-ready Nuxt 3 boilerplate implementing the Backend-for-Frontend (BFF) architecture. Designed for scalable SaaS applications, it includes a modern UI stack, schema-safe validation, state management, and a complete testing environment.
 
 ## Features
@@ -64,4 +88,21 @@ components/
 
 1. `shared/types/`: This is the canonical location for TypeScript interfaces and type definitions that describe the data structures shared between the BFF and the client. For example, a User type defined here can be used in a Pinia store on the client and in a server API handler to type its return value.
 
-2. `shared/utils/`: This sub-directory is ideal for pure utility functions that are environment-agnostic. Its most critical use case in a BFF architecture is for defining validation schemas using a library like Zod.   
+2. `shared/utils/`: This sub-directory is ideal for pure utility functions that are environment-agnostic. Its most critical use case in a BFF architecture is for defining function like dateFormatter.ts, currencyFormatter.ts, ..etc.
+
+
+ ## 🙌 Contributing
+
+Contributions, issues and feature requests are welcome!  
+Feel free to fork the repo and open a pull request.
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 💬 Contact
+
+If you have any questions, feedback, or just want to say hi, feel free to reach out!
+
+Made with ❤️ using [Nuxt](https://nuxt.com), [Tailwind CSS](https://tailwindcss.com), and friends.
+
