@@ -10,5 +10,9 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss(),
     ]
-  }
+  },
+  runtimeConfig: {
+    apiUrl: process.env.API_ENDPOINT_URL || 'localhost:4000/api/v1',
+    public: {},
+  },
 })
