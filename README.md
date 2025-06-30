@@ -62,12 +62,12 @@ npm run dev
 ## Folder Information
 
 ### Compoments
-
+```
 components/
   ├── atoms/        For Smallest UI (buttons, inputs, labels)
   ├── molecules/    For Group of atoms (form fields, list item)
   ├── organisms/    For Complex section (card, modal, navbar)
-
+```
 ### Server
 
 #### The /server directory is the heart of the BFF. It contains all the server-side logic powered by Nitro.  
